@@ -1,18 +1,7 @@
-# xxx
+# Vue注入骨架屏实践
 
-> A Vue.js project
+相关文章首发于我的[Segmentfault专栏](https://segmentfault.com/blog/jrain)。
 
-## Build Setup
+传送门：
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+https://segmentfault.com/a/1190000014832185

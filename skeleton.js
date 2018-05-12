@@ -6,7 +6,7 @@ const { resolve } = require('path')
 const createBundleRenderer = require('vue-server-renderer').createBundleRenderer
 
 const renderer = createBundleRenderer(resolve(__dirname, './dist/skeleton.json'), {
-  template: fs.readFileSync(resolve(__dirname, './tpl.html'), 'utf-8')
+  template: fs.readFileSync(resolve(__dirname, './index.html'), 'utf-8')
 })
 
 renderer.renderToString({}, (err, html) => {
@@ -14,5 +14,5 @@ renderer.renderToString({}, (err, html) => {
     collapseWhitespace: true,
     minifyCSS: true
   })
-  fs.writeFileSync('skeleton.html', html, 'utf-8')
+  fs.writeFileSync('index.html', html, 'utf-8')
 })
