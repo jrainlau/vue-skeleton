@@ -6,7 +6,7 @@ const VueSSRServerPlugin = require('vue-server-renderer/server-plugin')
 module.exports = {
   target: 'node',
   entry: {
-    skeleton: './src/skeleton.js'
+    skeleton: './src/skeleton.entry.js'
   },
   output: {
     path: path.resolve(__dirname, './dist'),
